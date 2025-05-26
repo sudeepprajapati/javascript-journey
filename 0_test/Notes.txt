@@ -1,0 +1,71 @@
+Understanding .txt vs .js Files
+
+A .txt file is a plain text file, while a .js file is a JavaScript file.
+
+You can technically write console.log(12) in both .txt and .js files.
+
+However, in a .js file, console.log(12) has special meaning: it is valid JavaScript syntax that will execute in a JavaScript runtime.
+
+The key difference is that .js files can be interpreted or compiled by software environments that understand JavaScript syntax, while .txt files are just raw text with no execution context.
+
+How Code is Understood and Executed
+
+Programming languages require compilers or interpreters—software that understands the language's syntax and semantics.
+
+These tools extract meaning from the code and translate or execute it.
+
+JavaScript Runtime History
+
+In the early days, JavaScript could only run inside web browsers (like Chrome, Firefox, Safari).
+
+Each browser had its own embedded JavaScript engine (e.g., Chrome has V8, Firefox has SpiderMonkey).
+
+JavaScript was originally used only for frontend (client-side) development.
+
+Evolution to Backend: Node.js and Beyond
+
+Eventually, developers extracted the JavaScript engine (e.g., V8) from browsers.
+
+This led to the creation of standalone JavaScript runtimes like:
+
+Node.js – Created by Ryan Dahl in 2009.
+
+Deno – Also created by Ryan Dahl as a modern reimagining of Node.js.
+
+These runtimes allow JavaScript to be executed outside the browser, enabling backend (server-side) development.
+
+Popular JavaScript Environments
+
+Node.js
+
+Most widely used JavaScript runtime.
+
+Enables building backend servers, APIs, command-line tools, etc.
+
+Has a massive ecosystem (npm) for libraries and tools.
+
+Deno
+
+A newer runtime from the same creator as Node.js.
+
+Designed with security, simplicity, and modern standards in mind.
+
+Uses ES modules by default, includes TypeScript support out of the box.
+
+Writing and Running JavaScript Code
+
+You can write JavaScript code using editors like VS Code.
+
+After writing .js files, you can execute them using runtimes like Node.js:
+
+bash
+Copy code
+node filename.js
+Summary
+
+.txt files are plain text, while .js files are executable scripts in JavaScript.
+
+JavaScript began as a browser language but evolved to support backend development through Node.js and Deno.
+
+These environments provide the necessary tools to interpret and run JavaScript code outside of the browser.
+
