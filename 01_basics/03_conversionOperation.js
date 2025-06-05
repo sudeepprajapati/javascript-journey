@@ -1,5 +1,5 @@
 let score = "33"
-// let score = "33a" // After conversion in Number output will be NaN samee for "sudeep"
+// let score = "33a" // After conversion in Number output will be NaN same for "sudeep"
 // let score = null // After conversion in Number output will be 0
 // let score = undefined // After conversion in Number output will be NsN
 // let score = true // After conversion in Number output will be 1
@@ -9,7 +9,7 @@ let score = "33"
 // The problem statement is at line 1 we now score has type number but in line 3 we are unsure about type
 
 // console.log(typeof score);
-// console.log(typeof (score));
+// console.log(typeof (score)); // null=> object
 
 
 let valueInNumber = Number(score)
@@ -61,10 +61,12 @@ let str3 = str1 + str2
 // console.log("1" + 2);
 // console.log((1 + "2"));
 // console.log("1" + 2 + 3); // "12" + 3 = 123
+// console.log(1 + "2" + 3); // 123
+// console.log(1 + 2 + "3"); // 3 + "3" = 33
 // console.log(1 + 2 + "3"); // 3 + "3" = 33
 
 // console.log(+true);
-// console.log(+"");
+console.log(+"");
 
 let num1, num2, num3
 
