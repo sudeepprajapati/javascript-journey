@@ -20,9 +20,9 @@ const myArr2 = new Array(1, 2, 3, 4)
 // console.log(myArr.includes(9));
 // console.log(myArr.indexOf(9)); //if value does not exist it will return -1
 
-// const newArr = myArr.join()
+// const newArr = myArr.join() // converts array to string
 
-// console.log(typeof newArr);
+// console.log(newArr);
 
 // slice, splice
 

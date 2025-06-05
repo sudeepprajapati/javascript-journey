@@ -1,7 +1,7 @@
 let score = "33"
-// let score = "33a" // After conversion in Number output will be NaN same for "sudeep"
-// let score = null // After conversion in Number output will be 0
+// let score = "33a" // After conversion in Number output will be NaN same for "sudeep" and type would be number
 // let score = undefined // After conversion in Number output will be NsN
+// let score = null // After conversion in Number output will be 0 
 // let score = true // After conversion in Number output will be 1
 
 // const { store } = req.body
@@ -9,10 +9,10 @@ let score = "33"
 // The problem statement is at line 1 we now score has type number but in line 3 we are unsure about type
 
 // console.log(typeof score);
-// console.log(typeof (score)); // null=> object
+// console.log(typeof (score)); // null => object
 
 
-let valueInNumber = Number(score)
+// let valueInNumber = Number(score)
 // console.log(typeof valueInNumber);
 // console.log(valueInNumber);
 
@@ -63,10 +63,9 @@ let str3 = str1 + str2
 // console.log("1" + 2 + 3); // "12" + 3 = 123
 // console.log(1 + "2" + 3); // 123
 // console.log(1 + 2 + "3"); // 3 + "3" = 33
-// console.log(1 + 2 + "3"); // 3 + "3" = 33
 
 // console.log(+true);
-console.log(+"");
+// console.log(+"");
 
 let num1, num2, num3
 
@@ -75,13 +74,13 @@ num1 = num2 = num3 = 2 + 2
 let gameCounter = 100
 // gameCounter++;
 // ++gameCounter;
-console.log(gameCounter);
+// console.log(gameCounter);
 
 // prefix and postfix js 
 let x = 3;
 const y = x++;
 
-console.log(`x:${x}, y:${y}`);
+// console.log(`x:${x}, y:${y}`);
 // Expected output: "x:4, y:3"
 
 let a = 3;

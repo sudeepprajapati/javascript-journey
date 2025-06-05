@@ -32,11 +32,11 @@ const hundreds = 1000000
 // console.log(Math.max(4, 3, 8, 1));
 
 // console.log(Math.random()); // Random values between 1 and 2
-// console.log(Math.random() * 10); // Random whole Number
+// console.log(Math.random() * 10); // Random whole Number ex. 3.435435
 
 // console.log(Math.random() * 10 + 1); // Random Natural Number //but this should be avoided
 // console.log((Math.random() * 10) + 1); // Random Natural Number // Better approach
-console.log((Math.floor(Math.random() * 10)) + 1); // Random Natural Number // Best approach
+console.log((Math.floor(Math.random() * 10)) + 1); // Random Natural Number // Best approach removing decimal vlaues
 
 const min = 10
 const max = 20
