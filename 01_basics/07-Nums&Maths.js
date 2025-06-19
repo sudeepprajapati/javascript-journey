@@ -24,7 +24,7 @@ const hundreds = 1000000
 // console.log(Math);
 // console.log(Math.abs(-4)); // absolute converts nagative to positive and positive remains positive
 
-// console.log(Math.round(4.5)); // provides routnd of value by removing decimal values 
+// console.log(Math.round(4.5)); // provides round of value by removing decimal values 
 // console.log(Math.ceil(4.4));
 // console.log(Math.floor(4.6)); //explain
 
@@ -36,12 +36,12 @@ const hundreds = 1000000
 
 // console.log(Math.random() * 10 + 1); // Random Natural Number //but this should be avoided
 // console.log((Math.random() * 10) + 1); // Random Natural Number // Better approach
-console.log((Math.floor(Math.random() * 10)) + 1); // Random Natural Number // Best approach removing decimal vlaues
+// console.log((Math.floor(Math.random() * 10)) + 1); // Random Natural Number // Best approach removing decimal vlaues
 
 const min = 10
 const max = 20
 
 const randomValue = Math.floor(Math.random() * (max - min + 1)) + min;
 
-console.log(randomValue);
+// console.log(randomValue);
 
