@@ -1,0 +1,135 @@
+/* Base styles */
+body {
+    background-color: #12141f;
+    color: #ffffff;
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 2rem;
+    box-sizing: border-box;
+  }
+  
+  /* Headings */
+  h1 {
+    color: #f1c40f;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  /* Form container */
+  form {
+    background-color: #1a1d2a;
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0 0 10px #00000040;
+  }
+  
+  /* Labels */
+  label {
+    display: block;
+    margin: 0.8rem 0 0.3rem;
+  }
+  
+  /* Inputs, selects, ranges */
+  input,
+  select,
+  textarea {
+    width: 100%;
+    padding: 0.6rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    background-color: #23263a;
+    color: #ffffff;
+    box-sizing: border-box;
+  }
+  
+  /* Special inline inputs (checkboxes/radios/colors) */
+  input[type="checkbox"],
+  input[type="radio"],
+  input[type="color"],
+  input[type="range"],
+  input[type="file"] {
+    width: auto;
+    margin-right: 0.5rem;
+  }
+  
+  /* Buttons */
+  button,
+  input[type="reset"] {
+    background-color: #2980b9;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    margin-top: 1.2rem;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover,
+  input[type="reset"]:hover {
+    background-color: #3498db;
+  }
+  
+  /* Paragraphs */
+  p,a {
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #f39c12;
+  }
+
+  table {
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+  }
+  
+  caption {
+    caption-side: bottom;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+ 
+  
+  th,
+  td {
+    border: 1px solid rgb(160 160 160);
+    padding: 8px 10px;
+  }
+  
+  td:last-of-type {
+    text-align: center;
+  }
+  
+  tfoot th {
+    text-align: right;
+  }
+  
+  tfoot td {
+    font-weight: bold;
+  }
+  
+  /* Responsive layout */
+  @media (max-width: 600px) {
+    body {
+      padding: 1rem;
+    }
+  
+    form {
+      padding: 1.5rem;
+    }
+  
+    input,
+    select,
+    button {
+      font-size: 1rem;
+    }
+  }
+  
