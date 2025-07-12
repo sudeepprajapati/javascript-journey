@@ -1,0 +1,59 @@
+/* Base styles */
+body {
+    background-color: #12141f;
+    color: #ffffff;
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 2rem;
+    box-sizing: border-box;
+  }
+  
+  /* Headings */
+  h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  html {
+    margin: 0;
+  }
+  
+  span {
+    display: block;
+  }
+  
+  .canvas {
+    margin: 100px auto 100px;
+    width: 80%;
+    text-align: center;
+  }
+  
+  .button {
+    width: 100px;
+    height: 100px;
+    border: solid black 2px;
+    display: inline-block;
+  }
+  
+  #grey {
+    background: grey;
+  }
+  
+  #white {
+    background: white;
+  }
+  #blue {
+    background: blueviolet;
+  }
+  #yellow {
+    background: rgb(202, 224, 8);
+  }
+  
+  /* Responsive layout */
+  @media (max-width: 600px) {
+    body {
+      padding: 1rem;
+    }
+  }
+  
