@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  #banner {
+    font-size: 1rem;
+    color: #aaa;
+    letter-spacing: 1px;
+    margin-bottom: 0.5rem;
+  }
+  
+  #clock {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #00eeff;
+    background: #1f1f1f;
+    padding: 0.8rem 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 0 18px rgba(0, 255, 242, 0.25);
+    display: inline-block;
+    letter-spacing: 2px;
+    transition: all 0.3s ease-in-out;
+  }
+  
