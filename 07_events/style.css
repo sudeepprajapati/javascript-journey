@@ -1,0 +1,84 @@
+/* Root + font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #0f0f0f;
+  color: #fafafa;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+/* Container */
+.container {
+  width: 100%;
+  max-width: 1100px;
+}
+
+/* Title */
+.title {
+  font-size: clamp(1.5rem, 2vw, 2rem);
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #fafafa;
+}
+
+/* Images grid */
+#images {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  list-style: none;
+}
+
+/* Card style */
+#images li {
+  background-color: #18181b;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 0.75rem;
+  overflow: hidden;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+#images li:hover {
+  border-color: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
+}
+
+/* Image style */
+#images img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.25s ease;
+}
+
+#images img:hover {
+  transform: scale(1.03);
+}
+
+/* Link button */
+#images a {
+  display: block;
+  text-align: center;
+  padding: 0.75rem;
+  background-color: #27272a;
+  color: #fafafa;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  transition: background-color 0.2s ease;
+}
+
+#images a:hover {
+  background-color: #3f3f46;
+}

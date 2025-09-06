@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syntex Verse</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Syntex Verse</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+
+    <script>
+        let interval_Id;
+
+        const showDate = () => {
+            console.log("hi", Date.now());   
+        }
+
+        document.querySelector('#start').addEventListener('click', function () {
+            interval_Id = setInterval(showDate, 1000);
+            console.log("Started");
+        });
+
+        document.querySelector('#stop').addEventListener('click', function () {
+            clearInterval(interval_Id);
+            console.log("Stopped");
+        });
+    </script>
+</body>
+</html>
